@@ -1,0 +1,20 @@
+
+/* 테이블 스타일 */
+
+body {padding:15px 1px !important;}
+
+#cellMMB {width:100% !important; padding: 10px 0 0 0 !important;}
+
+.width99, 
+.maxWide,
+.maxW,
+.maxH {max-width:98% !important;}
+
+
+.numMMB {display:none;}
+
+.commentTd,
+.commentTdWide,
+.commentTdText {padding:0 5px !important; min-width:200px !important;}
+
+.adminOnlyTd {width:100% !important; text-align:center;}

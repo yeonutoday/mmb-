@@ -1,0 +1,92 @@
+A {font-weight:bold;}
+
+body {padding:20px;}
+
+input, textarea {font-size:11px !important;}
+
+html, body, div, table, td, textarea
+{font-family:'malgun gothic','Apple Gothic', tahoma, helvecita;
+ font-size:12px; color:#555; word-break:break-all; letter-spacing:-1px; line-height:1.4;}
+
+input {font-family:'malgun gothic','Apple Gothic', tahoma, helvecita;
+ color:#666; word-break:break-all; letter-spacing:-1px; line-height:1.4;}
+
+textarea {background-color:#ffffff; border:1px solid #ccc;}
+
+img {border:0px;}
+ 
+hr{display:none;}
+
+a { selector-dummy : expression(this.hideFocus=true);}
+
+A {text-decoration:none;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;}
+A:hover  {color:#555;text-decoration:none;}
+/* 이 하이퍼링크 성질은 MMB를 위해 넣은 것 */
+
+
+/* 해티가 추가해 놓습니다  MMB용  *********************************************************************************************************************/
+ul.MMB {display:inline; padding: 0 0 0 0; margin: 0 0 0 0;}
+
+li.menuMMB {display:inline; padding: 0px; margin: 0 0 0 0;
+background:none; border:none; 
+font-size:11px; font-family: tahoma;} 
+li.menuMMBPage {display:inline; padding: 0px; margin: 0 0 0 0;
+background:none; border:none; 
+font-size:11px; font-family: tahoma;} 
+
+.login{
+opacity:0.1;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; 
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10); 
+filter: Alpha(Opacity=10);
+zoom:1}
+
+#cellMMB {border-radius: 6px; -moz-border-radius:6px;  -webkit-border-radius:6px;
+margin:0 auto;
+min-height:60px;
+height:auto !important;
+height:60px;
+padding:0 12px 0px 10px;}
+
+.numMMB {width: 32px;
+position:relative; top:10px; left:-38px; 
+}
+
+.numMMBspan {font-weight:bold;}
+
+.maxW{width: 300px; height:auto; padding:0; margin:0;}
+.maxWide{width: 600px; height:auto; padding:0; margin:0;}
+.maxH{height: 800px; width:auto; padding:0; margin:0;}
+
+a.foldImage:hover{
+zoom:1;
+opacity:0.6;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; 
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); 
+filter: Alpha(Opacity=60);
+}
+
+.mouseOn {background:url(image/zoom_in.png) center center no-repeat; text-align:center;}
+
+.buttonMMB {font-family:Tahoma; font-size:8pt; color:#777; background-color:#fff;border:none; border:1px solid #ddd;
+border-radius: 4px; -moz-border-radius:4px;  -webkit-border-radius:4px;}
+
+/* 해티가 추가해 놓습니다  이하 모바일대응용 스타일  *********************************************************************************************************************/
+
+.wideLog {width:100%; margin:0 auto; text-align:center; } /* 넓은 로그 테이블 스타일 */
+
+.picTd {padding:10px 0 0 0; margin: 0 auto; float:left; text-align:center; position:relative; top:-12px;}
+.picTdText {width:100%; padding:10px 0 0 0; margin: 0 auto; float:left; text-align:center;}
+
+.adminOnlyTd {width:130px; padding:15px 5px 5px 5px; margin:0 auto; position:relative; top:-12px;}
+
+.commentTd {padding:0 0 0 12px; float:left;}
+.commentTdWide {padding-top:10px; float:left;} /* 넓은 로그는 relative 줘서 끌어올릴 수밖에 없다 */
+.commentTdText {padding:0px; float:left;}
+
+.commentWrite {width:100% !important;}

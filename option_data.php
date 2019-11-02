@@ -1,0 +1,16 @@
+<?
+$option_ip='off';
+$notice='on';
+$eca_replay='off';
+$pagebar_type='on';
+$link_http='on';
+$en_num='off';
+$restrict_del='off';
+$reple_mode='off';
+$kdreply_mode='off';
+$img_mode='off';
+$mem_login='on';
+$upimg='off';
+$upteble='off';
+$reply_close='off';
+?>
